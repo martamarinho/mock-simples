@@ -15,5 +15,11 @@ jobs:
       - name: Instalar dependências
         run: npm install
 
-      - name: Rodar JSON Server e testes
+      - name: Rodar JSON Server em background
+        run: npm run start:mock &
+      
+      - name: Esperar JSON Server estar pronto
+        run: npm run wait:api
+
+      - name: Rodar testes
         run: npm run test:ci
