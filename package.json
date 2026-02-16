@@ -1,0 +1,17 @@
+{
+  "name": "ninja2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mock": "json-server --watch mocks/db.json --port 3000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^15.9.0",
+    "open": "^11.0.0"
+  }
+}
+

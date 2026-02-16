@@ -1,0 +1,15 @@
+{"Login":{
+    "email":"papito@webdojo.com",
+    "senha": "katana123"
+},
+"LoginErro": {
+    "email":"emailerrado@webdojo.com",
+     "senha": "katana123"
+
+},
+"LoginErroSenha":{
+      "email":"papito@webdojo.com",
+     "senha": "katana1234"
+
+
+}}
