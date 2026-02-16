@@ -16,5 +16,3 @@ jobs:
 
       - name: Rodar testes com servidor
         run: npm run ci
-
-
