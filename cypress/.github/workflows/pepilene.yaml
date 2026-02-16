@@ -15,11 +15,5 @@ jobs:
       - name: Instalar dependências
         run: npm install
 
-      - name: Subir JSON Server
-        run: npm run mock &
-
-      - name: Esperar API subir
-        run: npx wait-on http://localhost:3000
-
-      - name: Rodar testes
-        run: npm test
+      - name: Rodar JSON Server e testes
+        run: npm run test:ci

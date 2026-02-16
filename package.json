@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "mock": "json-server --watch mocks/db.json --port 3000"
+    "mock": "json-server --watch mocks/db.json --port 3000",
+     "test:ci": "start-server-and-test mock http://localhost:3000 npm test"
   },
   "author": "",
   "license": "ISC",
